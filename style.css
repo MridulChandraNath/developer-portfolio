@@ -8,14 +8,20 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
 
 .half-width{
-    width: 80%;
+    width: 40%;
     padding-left: 2%;
+    float: left; 
+
+    /* width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%; */
 }
 .half-width img{
     width: 70%;
